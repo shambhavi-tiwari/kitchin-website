@@ -63,7 +63,7 @@ Violations may result in takedown requests or legal action.
 
 **Shambhavi Tiwari**  
 Founder & Full-Stack Builder, Kitchin  
-[LinkedIn](https://www.linkedin.com/in/shambhavi-tiwari) | [kitchin.app](https://v0-kitchin-k0.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/tiwari-shambhavi) | [kitchin.app](https://v0-kitchin-k0.vercel.app/)
 
 ---
 
