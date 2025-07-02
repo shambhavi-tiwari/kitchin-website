@@ -34,16 +34,28 @@ Violations may result in takedown requests or legal action.
 
 ---
 
-## 🧠 Tech Stack
+### 🖥️ Frontend
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router with React Server Components)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) — utility-first and fully responsive
+- **UI Prototyping**: [V0.dev](https://v0.dev) → manually refactored into clean component structure
+- **Animation**: [Framer Motion](https://www.framer.com/motion/) for scroll-based motion effects
+- **Image Optimization**: `next/image` for responsive rendering, lazy loading, and performance
 
-- **Framework**: Next.js 14 (App Router, RSC)
-- **Styling**: Tailwind CSS
-- **UI Prototyping**: V0.dev + manual restructuring
-- **Animation**: Framer Motion
-- **Deployment**: Vercel (CI/CD with GitHub)
-- **Backend**: Neon (serverless PostgreSQL)
-- **API Testing**: Postman
-- **Asset Creation**: AI-driven illustration workflows using Stable Diffusion + post-processing
+### 🎨 Custom Visuals
+- All illustrations were generated using **ChatGPT’s image capabilities** with creative direction tailored to Kitchin’s brand
+- Exported as **transparent WebP** assets for cross-browser performance
+- No stock or third-party images used
+
+### 🛠️ Backend & APIs
+- **Database**: [Neon.tech](https://neon.tech) — serverless PostgreSQL for user email collection
+- **API Routes**: Built using **Next.js API routes** with async handling, validation, and soft rate limiting
+- **Testing & Debugging**: [Postman](https://postman.com) used to test all endpoints and handle edge-case simulations
+- **Environment Management**: `.env.local` for securely managing environment secrets
+
+### 🚀 Deployment & CI/CD
+- **Platform**: [Vercel](https://vercel.com/) — GitHub-integrated for seamless CI/CD workflows
+- **Global CDN**: Edge functions + CDN for optimized TTFB and global performance
+- **Preview Deployments**: Auto-generated per commit/branch via GitHub integration
 
 ---
 
